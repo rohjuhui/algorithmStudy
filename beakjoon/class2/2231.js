@@ -1,4 +1,4 @@
-let input = require('fs').readFileSync('example.txt').toString().trim();
+let input = require('fs').readFileSync('../example.txt').toString().trim();
 // let input = require('fs').readFileSync('/dev/stdin').toString().trim();
 
 let m = Number(input);

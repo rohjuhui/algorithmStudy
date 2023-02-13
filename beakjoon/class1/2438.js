@@ -1,4 +1,4 @@
-let input = require('fs').readFileSync('example.txt').toString();
+let input = require('fs').readFileSync('../example.txt').toString();
 console.log('input: ', input);
 let cnt = Number(input);
 

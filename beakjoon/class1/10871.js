@@ -1,4 +1,4 @@
-let input = require('fs').readFileSync('example.txt').toString().split('\n');
+let input = require('fs').readFileSync('../example.txt').toString().split('\n');
 
 let first_line = input[0].toString().split(' ');
 let second_line = input[1].toString().split(' ');
