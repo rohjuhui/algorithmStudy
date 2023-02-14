@@ -6,6 +6,7 @@ let m = 1234567891;
 
 let hash = 0;
 for(let i=0; i<l; i++){
+	
 	// 영어 소문자 아스키코드 a-z > 97-122
 	hash += ((str.charCodeAt(i) - 96) * Math.pow(r, i)) % m;
 }
