@@ -1,0 +1,3 @@
+requests
+notion_client
+urllib3
