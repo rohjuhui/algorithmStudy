@@ -1,4 +1,4 @@
-name: Run Python Script
+name: Auto post to notion
 
 on:
   push:
@@ -29,7 +29,7 @@ jobs:
         run: |
           git_path=$(which git)
           $git_path  diff --name-only ${{ github.event.before }} ${{ github.sha }} > .github/changed_files.txt
-      - name: Run Python Script
+      - name: Auto post to notion
         env:
           COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
