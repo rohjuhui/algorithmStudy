@@ -19,7 +19,7 @@ This project is a template project to help solve various algorithm problems.
 5. Check the "Read repository content and packages permissions" in Settings > Actions > General > Workflow permissions
 6. Create a new repo using your fork
 
-   - fist, start your repo that created
+   - first, start your repo that created
    - second, try this command
 
    ```
