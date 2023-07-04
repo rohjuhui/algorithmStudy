@@ -372,6 +372,6 @@ dist
 .tern-port
 
 #
-beakjoon/node_modules
-beakjoon/example.txt
-beakjoon/package-lock.json
+baekjoon/node_modules
+baekjoon/example.txt
+baekjoon/package-lock.json
